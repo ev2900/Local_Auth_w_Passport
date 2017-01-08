@@ -22,7 +22,7 @@ var app = express();
 // View Engin (handle bars ....)
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', exphbs({ defaultLayout:'layout' }));
-app.set('view engin', 'handlebars');
+app.set('view engine', 'handlebars');
 
 // Body Parser 
 app.use(bodyParser.json());
