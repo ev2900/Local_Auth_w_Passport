@@ -29,6 +29,7 @@
     "mongodb": "*",
     "passport": "*",
     "passport-http": "*",
-    "passport-local": "*"
+    "passport-local": "*",
+    "mongoose": "*"
   }
 }
