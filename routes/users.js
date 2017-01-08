@@ -19,7 +19,17 @@ router.post('/register', function(req, res) {
 	var password = req.body.password;
 	var password2 = req.body.password2;
 
-	console.log(name);
+	// Validation
+	req.checkBody('name', 'Name is required').notEmpyt();
+
+	var errors = req.validationErrors();
+
+	if(errors){
+		console.log('YES');
+	}
+	else{
+		console('NO');
+	}
 });
 
 
