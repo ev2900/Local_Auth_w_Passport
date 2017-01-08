@@ -1,0 +1,34 @@
+{
+  "name": "Passport_js_Template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ev2900/Passport_js_Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ev2900/Passport_js_Template/issues"
+  },
+  "homepage": "https://github.com/ev2900/Passport_js_Template#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
