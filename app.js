@@ -26,7 +26,7 @@ app.set('view engin', 'handlebars');
 
 // Body Parser 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: falsh }));
+app.use(bodyParser.urlencoded({ extended: flash }));
 app.use(cookieParser());
 
 // Static Content
