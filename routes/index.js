@@ -7,7 +7,7 @@ router.get('/', ensureAuthenticated, function(req, res) {
 });
 
 function ensureAuthenticated(req, res, next){
-	if(req.isAuthticated()){
+	if(req.isAuthenticated()){
 		return next();
 	} else {
 		req.flash('error_msg', 'You are not logged in');
