@@ -81,7 +81,7 @@ app.use('/',  routes);
 app.use('/users', users);
 
 // Set port 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 9002));
 
 app.listen(app.get('port'), function() {
 	console.log('Server running on port ' + app.get('port'));
