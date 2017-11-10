@@ -1,5 +1,5 @@
 # Login (local authentication) using Passport.js
-A simple implementation of a login system with protected routes and local authentification. Using Passport.js.
+An implementation of a login system with protected routes and local authentification. Using Passport.js.
 
 Preview
 
